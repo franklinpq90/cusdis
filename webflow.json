@@ -1,8 +1,5 @@
 {
-  "cosmic": {
-    "framework": "custom",
-    "installCommand": "corepack enable && corepack prepare pnpm@8 --activate && pnpm install --frozen-lockfile",
-    "buildCommand": "pnpm build",
-    "outputDirectory": ".next"
+  "cloud": {
+    "framework": "nextjs"
   }
 }
