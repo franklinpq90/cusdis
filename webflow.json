@@ -1,7 +1,9 @@
 {
-  "framework": "nextjs",
-  "nodeVersion": "18",
-  "installCommand": "corepack enable && corepack prepare pnpm@8 --activate && pnpm i --frozen-lockfile",
-  "buildCommand": "pnpm build",
-  "outputDirectory": ".next"
+  "cosmic": {
+    "framework": "nextjs",
+    "nodeVersion": "18",
+    "installCommand": "corepack enable && corepack prepare pnpm@8 --activate && pnpm i --frozen-lockfile",
+    "buildCommand": "pnpm build",
+    "outputDirectory": ".next"
+  }
 }
