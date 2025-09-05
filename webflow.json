@@ -1,9 +1,9 @@
 {
   "cloud": {
-    "framework": "custom",
+    "framework": "nextjs",
     "nodeVersion": "18",
-    "installCommand": "corepack enable && corepack prepare pnpm@8 --activate && pnpm install --frozen-lockfile || pnpm install",
-    "buildCommand": "pnpm build",
+    "installCommand": "npm install --legacy-peer-deps",
+    "buildCommand": "npm run build",
     "outputDirectory": ".next"
   }
 }
